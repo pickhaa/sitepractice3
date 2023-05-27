@@ -1,0 +1,498 @@
+/* --- https://www.figma.com/file/eiU4F1nWLlSLEjAn3w10Qm/clickhouse.by-(Copy)?node-id=1449%3A245&t=p8YL4qBYw3JTtCKA-0 --- */
+
+
+/* --- Шрифт --- */
+
+@font-face {
+    font-family: jost;
+    src: url("fonts/jost/Jost-Bold.ttf");
+}
+@font-face {
+    font-family: roboto;
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: roboto1;
+    src: url("fonts/Roboto/Roboto-Bold.ttf");
+}
+/* --- Настройки --- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Zagolovki{
+    font-family: jost;
+}
+
+.container{
+    width: 1285px;
+    margin: 0 auto;
+}
+body{
+    font-family: roboto;
+}
+
+/* --- Шапка --- */
+
+header{
+    background: #F8F8F8;
+}
+.Sapochka{
+    display: flex;
+}
+.Sapochka .logo a{
+    content: url("image/logo.png");
+    margin:  33px 0px 28px 0px;
+}
+.Sapochka nav ul{
+    display: flex;
+    list-style: none;
+    width: 384px;
+    gap: 20px;
+    margin: 39px 162px 46px 161px;
+}
+.Sapochka nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+}
+.Sapochka .number{
+    margin: 28px 0px 27px 2px;
+}
+.Sapochka .number .telephon{
+    display: flex;
+    font-size: 22px;
+    gap: 10px;
+}
+.slesh{
+    color: #DCDCDC;
+}
+.ZakazZvonka{
+    text-align: right;
+    margin-top: 8px;
+    text-decoration: none;
+}
+.ZakazZvonka p a{
+    text-decoration: none;
+    color: #7D7D7D;
+}
+
+/* --- Основная часть --- */
+
+.Glavnaya .navigacia{
+    display: flex;
+    margin-bottom: 23px;
+}
+.Glavnaya .menubar a{
+    content: url("Image/Burger.png");
+    margin: 40px 84px 38px 0px;
+}
+.Glavnaya .Filtr input{
+    border: none;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    width: 600px;
+    font-size: 18px;
+    color: #7D7D7D;
+    background: transparent;
+    padding: 16px 0px 17px 28px;
+    background: url("image/Lupa.png") 96%;
+    background-repeat: no-repeat;    
+    margin: 23px 85px 21px 0px;
+}
+.Glavnaya .Spisok p{
+    color: #FF9900;
+    font-size: 18px;
+    margin: 39px 66px 38px 0px;
+}
+.Glavnaya .izbroni a{
+    content: url("image/Star.png");
+    margin: 36px 35px 38px 0px;
+}
+
+.Glavnaya .Karzina a{
+    content: url("image/Karzina.png");
+    margin: 37px 39px 38px 0px;
+}
+.Glavnaya .Profil a{
+    content: url("image/Profil.png");
+    margin: 38px 0px 38px 0px;
+}
+
+
+.Glavnaya .Priziv{
+    display: flex;
+}
+.Glavnaya .Priziv .logoAkcia{
+    content: url("image/Akcia.png");
+}
+.Glavnaya .Priziv .Info{
+    width: 470px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 60px;
+    margin-right: 24px;
+}
+.Glavnaya .Priziv .Info p{
+    font-size: 48px;
+    width: 351px;
+    margin: 46px 61px 31px 59px;
+    line-height: 44px;
+}
+.Glavnaya .Priziv .Info ul{
+    font-size: 18px;
+    margin: 0px 61px 38px 58px;
+    line-height: 32px;
+
+}
+.Glavnaya .Priziv .Info .first{
+    background: #FF9900;
+    border-radius: 75px;
+    border: none;
+    width: 350px;
+    color: white;
+    padding: 15px 82px 15px 82px;
+    font-size: 18px;
+    margin-bottom: 38px 60px 22px 60px;
+    margin: 0px 60px 22px 60px;
+    cursor: pointer;
+}
+.Glavnaya .Priziv .Info .second{
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 75px;
+    border: none;
+    width: 350px;
+    color: #FF9900;
+    background: linear-gradient(98.34deg, #FFFFFF 0%, #FFFFFF 100%);
+    padding: 15px 47px 15px 47px;
+    font-size: 18px;
+    margin: 0px 60px 22px 60px;
+    cursor: pointer;
+}
+
+
+.populear .Zagolovki{
+    font-size: 36px;
+    margin-top: 51px;
+    margin-bottom: 30px;
+}
+.populear span{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: roboto;
+    margin-left: 10px;
+}
+.populear .category{
+    gap: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.populear span::after{
+    content: url("image/Strelochka.png");
+    margin-left: 5px;
+}
+.category1{
+    content: url("image/divan.png");
+    padding: 19px 16px 0px 16px;
+}
+.category2{
+    content: url("image/spalna.png");
+    padding: 21px 66px 10px 66px;
+}
+.category3{
+    content: url("image/kuxna.png");
+    padding: 25px 19px 14px 18px;
+}
+.category4{
+    content: url("image/dlyadoma.png");
+    padding: 24px 42px 14px 42px;
+}
+.category5{
+    content: url("image/mebel.png");
+    padding: 16.24px 79px 5.76px 80px;
+}
+.category6{
+    content: url("image/gigiena.png");
+    padding: 14px 84px 5px 85px;
+}
+.category7{
+    content: url("image/dlyaotdiha.png");
+    padding: 13px 72px 12px 70px;
+}
+.category8{
+    content: url("image/zerkala.png");
+    padding: 13px 69px 7px 70px;
+}
+.category9{
+    content: url("image/kisspng-bedside-tables-pedestal-desk-buffets-sideboards-european-style-luxury-5adff801eba1c1\ 1.png");
+    padding: 30px 24px 15px 23px;
+}
+.category10{
+    content: url("image/bitovaia.png");
+    padding: 7px 43px 1px 43px;
+}
+.populear .category article{
+    background: linear-gradient(98.34deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+    width: 237px;
+    text-align: center;
+}
+.populear .category p{
+    padding: 10px 0px 12px 0px;
+}
+
+
+.Skidki .Zagolovki{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 42px;
+}
+.Skidki span{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: roboto;
+    margin-left: 4px;
+}
+.Skidki .arrow::after{
+    content: url("image/Strelochka.png");
+    margin-left: 5px;
+}
+.Skidki .megaakcia .aprocent{
+    font-size: 18px;
+    line-height: 34px;
+    color: #FF3232;
+}
+.Skidki .megaakcia p{
+    font-size: 18px;
+    line-height: 34px;
+}
+.Skidki .megaakcia .starcena{
+    text-decoration: line-through;
+    color: #7D7D7D;
+    font-size: 14px;
+    line-height: 0px;
+    margin-top: 15px;
+}
+.Skidki .megaakcia .price{
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: roboto1;
+}
+.Skidki .megaakcia{
+    display: flex;
+    gap: 24px;
+}
+
+.Skidki .megaakcia article{
+    width: 302px;
+    height: 580px;
+}
+.Skidki .megaakcia article p{
+    margin: 0px 27px 0px 27px ;
+}
+.Skidki .megaakcia article span{
+    font-size: 14px;
+    font-family: roboto1;
+}
+.skidki1{
+    content: url("image/s1.png");
+    padding: 10px 0px 0px 60px;
+}
+.skidki2{
+    background:url("image/balon.png");
+    width: 100%;
+    height: 282px;
+    padding: 15px 11px 0px 2px;
+}
+.skidki3{
+    content: url("image/s3.png");
+    padding: 5px;
+}
+.skidki4{
+    content: url("image/s4.png");
+    padding: 5px;
+}
+
+.Skidki .megaakcia article:hover{
+    background: linear-gradient(98.34deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.Skidki .megaakcia article:hover .anim{
+    display: flex;
+}
+.vsimg{
+    display: none;
+}
+.kolvo {
+    content: url("image/kolvo.png");
+    margin: 20px 108px 26px 27px;
+    height: 35px;
+}
+.dobavit{
+    content: url("image/dobavkarzina.png");
+    margin: 20px 27px 26px 0px;
+}
+
+
+.tovarivnalichii .Zagolovki{
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 42px;
+}
+.tovarivnalichii span{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: roboto;
+}
+.tovarivnalichii .Zagolovki span::after{
+    content: url("image/Strelochka.png");
+    margin-left: 5px;
+}
+.tovarchik1{
+    content:url("image/t1.png");
+    padding: 5px;
+}
+.tovarchik2{
+    content:url("image/t2.png");
+    padding: 5px;
+}
+.tovarchik3{
+    content:url("image/t3.png");
+    padding: 5px;
+}
+.tovarchik4{
+    content:url("image/t4.png");
+    padding: 5px;
+}
+.tovarchik5{
+    content:url("image/t5.png");
+    padding: 5px;
+}
+.tovarchik6{
+    content:url("image/t6.png");
+    padding: 5px;
+}
+.tovarchik7{
+    content:url("image/t7.png");
+    padding: 5px;
+}
+.tovarchik8{
+    content:url("image/t8.png");
+    padding: 5px;
+}
+.tovarchik9{
+    content:url("image/t9.png");
+    padding: 5px;
+}
+.tovarchik10{
+    content:url("image/t10.png");
+    padding: 5px;
+}
+.tovarchik11{
+    content:url("image/t11.png");
+    padding: 5px;
+}
+.tovarchik12{
+    content:url("image/t12.png");
+    padding: 5px;
+}
+.tovari article p{
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0px 27px;
+}
+.tovarivnalichii .tovari{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.tovari article{
+    width: 302px;
+    height: 580px;
+}
+.tovarivnalichii .tovari .price{
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: roboto1;
+}
+.kolvo2{
+    content: url("image/colvo2.png");
+    margin: 20px 108px 26px 27px;
+    height: 35px;
+}
+.tovarivnalichii .tovari article:hover{
+    background: linear-gradient(98.34deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.tovarivnalichii .tovari article:hover .anim{
+    display: flex;
+}
+.tovarivnalichii .viravnivanie{
+    margin-top: 37px;
+}
+.tovarivnalichii .aprocent{
+    font-size: 18px;
+    color: #FF3232;
+}
+
+
+.populiarno .Zagolovki{
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 42px;
+}
+.populiarno span{
+    font-size: 18px;
+    line-height: 34px;
+    font-family: roboto;
+}
+.populiarno article p{
+    font-size: 18px;
+    line-height: 34px;
+    margin: 0px 27px;
+}
+.populiarno .top{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.top article{
+    width: 302px;
+    height: 585px;
+}
+.populiarno .top .price{
+    font-size: 30px;
+    line-height: 20px;
+    margin-top: 15px;
+    font-family: roboto1;
+}
+.kolvo2{
+    content: url("image/colvo2.png");
+    margin: 20px 108px 26px 27px;
+    height: 35px;
+}
+.populiarno .top article:hover{
+    background: linear-gradient(98.34deg, #FFFFFF 0%, #FFFFFF 100%);
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.populiarno .top article:hover .anim{
+    display: flex;
+}
+.populiarno .viravnivanie{
+    margin-top: 37px;
+}
+.populiarno .aprocent{
+    font-size: 18px;
+    color: #FF3232;
+}
